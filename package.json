@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5",
+    "sass": "^1.64.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "name": "petits-plats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./src/sass/main.scss:./public/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
