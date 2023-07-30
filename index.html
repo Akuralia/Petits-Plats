@@ -30,6 +30,7 @@
                         <div class="container mt-4">
                             <form class="form-inline">
                                 <input
+                                    id="search-bar"
                                     class="form-control mr-sm-2"
                                     type="search"
                                     placeholder="Rechercher une recette, un ingrédient, ..."
@@ -56,7 +57,7 @@
                     </button>
 
                     <div class="recipes-count">
-                        <span class="recipe-nbr">22</span>
+                        <span id="count" class="recipe-nbr"></span>
                         <span>recettes</span>
                     </div>
                 </div>
@@ -112,27 +113,7 @@
                         </div>
                     </div> -->
                 </div>
-                <div class="dropdown">
-                    <button
-                        class="btn btn-secondary dropdown-toggle"
-                        type="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                    >
-                        Dropdown button
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li>
-                            <a class="dropdown-item" href="#">Another action</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#"
-                                >Something else here</a
-                            >
-                        </li>
-                    </ul>
-                </div>
+
             </main>
         </div>
         <script
@@ -140,5 +121,6 @@
             crossorigin="anonymous"
         ></script>
         <script src="./src/scripts/page/index.js" type="module"></script>
+        <script src="./src/scripts/filter/filter_1.js" type ="module"></script>
     </body>
 </html>

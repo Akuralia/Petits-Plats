@@ -8,7 +8,7 @@ export function recipeCardTemplate(recipes) {
             src="./src/assets/images/${recipes.image}"
             alt="${recipes.name}"
         />
-        <span class="recipe-time"> ${recipes.time}</span>
+        <span class="recipe-time"> ${recipes.time} min</span>
     </div>
     <div class="card-infos">
         <h2>${recipes.name}</h2>

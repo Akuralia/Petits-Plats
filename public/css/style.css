@@ -12034,6 +12034,8 @@ textarea.form-control-lg {
 .card-infos p {
   margin-top: 7px;
   font-size: 14px;
+  height: 107px;
+  overflow-y: auto;
 }
 .card-infos h4, .card-infos .h4,
 .card-infos span {
